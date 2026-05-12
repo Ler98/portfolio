@@ -1,8 +1,9 @@
+import HeroSection from "../../section/heroSection/HeroSection";
+
 function Home() {
   return (
     <section>
-      <h1>Home</h1>
-      <h1>Home</h1>
+      <HeroSection />
     </section>
   );
 }

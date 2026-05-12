@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Kulim+Park:wght@400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +9,8 @@
 :root {
   --color-lightBlue: #d4eeff;
   --color-pink: #cb1158;
+  --font-Kulim: "Kulim Park", sans-serif;
+  --font-Arimo: "Arimo";
 }
 
 body {
@@ -15,9 +19,17 @@ body {
 
 .wrapper {
   padding: 1rem;
-  background-color: rgb(187, 187, 187);
 }
 
 .app {
   max-width: 1200px;
+  margin: 0 auto; /* så att sidan hamnar i mitten*/
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  color: var(--color-pink);
 }
