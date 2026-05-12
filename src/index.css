@@ -4,5 +4,20 @@
   box-sizing: border-box;
 }
 
-/* :root {
-} */
+:root {
+  --color-lightBlue: #d4eeff;
+  --color-pink: #cb1158;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.wrapper {
+  padding: 1rem;
+  background-color: rgb(187, 187, 187);
+}
+
+.app {
+  max-width: 1200px;
+}

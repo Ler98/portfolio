@@ -1,12 +1,14 @@
-import "./App.css";
+// import "./index.css";
 
-function App() {
-  return (
-    <section>
-      <h1>Helloc:</h1>
-      <h1>Helloc:</h1>
-    </section>
-  );
-}
+// function App() {
+//   return (
+//     <section className="app">
+//       <section className="wrapper">
+//         <h1>Helloc:</h1>
+//         <h1>Helloc:</h1>
+//       </section>
+//     </section>
+//   );
+// }
 
-export default App;
+// export default App;

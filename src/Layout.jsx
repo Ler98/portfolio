@@ -3,11 +3,13 @@ import Home from "./pages/home/Home.jsx";
 
 function Layout() {
   return (
-    <section>
+    <section className="app">
       <header></header>
-      <main>
-        <Outlet />
-      </main>
+      <section className="wrapper">
+        <main>
+          <Outlet />
+        </main>
+      </section>
       <footer></footer>
     </section>
   );
