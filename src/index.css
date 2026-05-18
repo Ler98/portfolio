@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Kulim+Park:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap");
 
 * {
   margin: 0;
@@ -10,7 +12,8 @@
   --color-lightBlue: #d4eeff;
   --color-pink: #cb1158;
   --font-Kulim: "Kulim Park", sans-serif;
-  --font-Arimo: "Arimo";
+  --font-Arimo: "Arimo", sans-serif;
+  --font-Kalnia: "Kalnia", sans-serif;
 }
 
 body {

@@ -1,0 +1,11 @@
+.projectRight__subtitle-section {
+  margin: 2rem 0rem 2rem 3rem;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+}
+
+.noBAckground {
+  background: none;
+  padding: 0rem;
+  margin: 2rem;
+}
