@@ -1,10 +1,12 @@
 import "../../section/projectLeft/projectLeft.css";
 import test from "../../assets/bilder/test.jpg";
+import { useNavigate } from "react-router-dom";
 
 function ProjectLeft() {
+  const navigate = useNavigate();
   return (
     <section className="project">
-      <section className="project__title-section">
+      <section className="project__title-section" id="kodprojekt">
         <h1 className="project__title">Kod-projekt</h1>
       </section>
       <section className="projectLeft__subtitle-section">
@@ -14,7 +16,12 @@ function ProjectLeft() {
           och dess vänner. I detta projekt har jag fokuserat på API-anrop och en
           bra upplevelse för användaren.
         </p>
-        <button className="project__button">Läs mer om projektet</button>
+        <button
+          onClick={() => navigate("/design/projekt")}
+          className="project__button"
+        >
+          Läs mer om projektet
+        </button>
       </section>
       <section className="project__img-section">
         <img className="project__img" src={test} alt="projektbild" />

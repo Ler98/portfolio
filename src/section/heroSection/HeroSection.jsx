@@ -35,15 +35,27 @@ function HeroSection() {
         </p>
       </section>
       <section className="hero__nav-section">
-        <a className="hero__nav" href="">
+        <a className="hero__nav" href="#kodprojekt">
           Kod-projekt
         </a>
-        <a className="hero__nav" href="">
+        <a className="hero__nav" href="#kodprojekt">
           Design-projekt
         </a>
         {/* <section className="nav__ikon-section"> */}
-        <img className="nav__ikon" src={github} alt="link till github" />
-        <img className="nav__ikon" src={linkedin} alt="link till linkedin" />
+        <a
+          href="https://github.com/Ler98"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="nav__ikon" src={github} alt="Länk till GitHub" />
+        </a>
+        <a
+          href="https://linkedin.com/in/lisa-eriksson-580b601ba/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="nav__ikon" src={linkedin} alt="link till linkedin" />
+        </a>
       </section>
     </section>
   );
