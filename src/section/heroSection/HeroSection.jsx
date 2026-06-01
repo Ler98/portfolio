@@ -38,7 +38,7 @@ function HeroSection() {
         <a className="hero__nav" href="#kodprojekt">
           Kod-projekt
         </a>
-        <a className="hero__nav" href="#kodprojekt">
+        <a className="hero__nav" href="#designprojekt">
           Design-projekt
         </a>
         {/* <section className="nav__ikon-section"> */}
