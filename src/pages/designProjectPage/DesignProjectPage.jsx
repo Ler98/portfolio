@@ -4,12 +4,13 @@ import test2 from "../../assets/bilder/test2.jpg";
 import { useNavigate } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import designProjects from "../../data/designProjects";
+import codeProjects from "../../data/codeProjects";
 
 function DesignProjectPage({}) {
   const navigate = useNavigate();
   const { slug } = useParams();
 
-  const allprojects = [...designProjects];
+  const allprojects = [...designProjects, ...codeProjects];
   const project = allprojects.find((p) => p.slug === slug);
 
   if (!project) {

@@ -1,6 +1,6 @@
 import "../../section/projectLeft/projectLeft.css";
 import test from "../../assets/bilder/test.jpg";
-import SushiYama7mindre from "../../assets/bilder/sushiyama/SushiYama7mindre.jpg";
+
 import { useNavigate } from "react-router-dom";
 import designProjects from "../../data/designProjects";
 import codeProjects from "../../data/codeProjects";
@@ -29,8 +29,8 @@ function ProjectLeft({ projects }) {
                 <section className="project__img-section">
                   <img
                     className="project__img"
-                    src={SushiYama7mindre}
-                    alt="projektbild"
+                    src={project.image}
+                    alt={project.title}
                   />
                 </section>
               </section>

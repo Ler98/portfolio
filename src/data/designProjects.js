@@ -1,3 +1,8 @@
+// import SushiYama7mindre from "../../assets/bilder/sushiyama/SushiYama7mindre.jpg";
+import SushiYama7mindre from "../assets/bilder/sushiyama/SushiYama7mindre.jpg";
+import Lessebo3D from "../assets/bilder/lessebo/Lessebo3D.png";
+import wermlandstryfflar2 from "../assets/bilder/wermlandschoklad/wermlandstryfflar2.jpg";
+
 const designProjects = [
   {
     id: 1,
@@ -8,20 +13,23 @@ const designProjects = [
     typ: "Grupparbete",
     description:
       "En uppdatering av Sushi Yamas grafiska identitet. Jag har haft ansvaret att ta fram en ny grafisk identitet i form av färger och illustrationer, samt text och uppbyggnad av dokumentationen. Jag delade ansvaret för upplägget inför fotograferingen och kampanjen. Form och funktioner har diskuterats av alla i gruppen.",
-    image: "",
+    image: SushiYama7mindre,
     link: "",
+    program:
+      "Illustrator, Photoshop, Lightroom Classic, ArtiosCad, UV-printer, Skärbord, Systemkamera",
   },
   {
     id: 2,
-    slug: "Lessebojulkort",
-    title: "Lessebo Paper´s Julkort",
-    projecttyp: "Skarpt projekt",
+    slug: "Dip",
+    title: "Dip",
+    projecttyp: "fiktivt projekt",
     category: "",
-    typ: "Enskilt",
+    typ: "Grupparbete",
     description:
-      "Detta är Lessebos julkort 2023 som jag fick äran att designa. Det är ett anorluna julkort som passar världen över. Alla firar inte jul och jag ville inte exkuldera någon. Kortets utsida består entast av papper i olika färger och guldfolie.",
-    image: "",
+      "Detta var ett projekt där vi skulle skapa en förpackning som minskar matavfall. Vi skapade denna dip-förpackning som är en tvåpack där varje del innehåller en mindre mängd som funkar för en person. I vår undersökning såg vi att många blandar dipppulvret med en hel förpackning gräddfil och allt äts inte upp. Skålen ställs i kylen i förhoppning att någon vill ha den nästa dag. Men i många fall så slängs dippen. ",
+    image: Lessebo3D,
     link: "",
+    program: "Illustrator, ArtiosCad",
   },
   {
     id: 3,
@@ -32,8 +40,9 @@ const designProjects = [
     typ: "Enskilt",
     description:
       "På Wermlandschoklad tillbringade jag min första praktikperiod som designer. Jag fick i uppdrag att uppdatera deras dåvarande ettiketter till tryfflarna.",
-    image: "",
+    image: wermlandstryfflar2,
     link: "",
+    program: "Fusion 360, illustrator, lightroom, Systemkamera",
   },
 ];
 
