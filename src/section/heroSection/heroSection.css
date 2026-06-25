@@ -132,3 +132,71 @@
   padding: 2rem;
   margin: 0rem 2rem 0rem 0rem;
 }
+
+@media (max-width: 1100px) {
+  .hero__title-section {
+    justify-content: start;
+  }
+
+  .hero__title-center {
+    text-align: start;
+  }
+
+  .hero__title {
+    font-size: 5rem;
+    margin: 0;
+  }
+
+  .hero__subtitle {
+    margin-left: 0rem;
+    font-size: 1.8rem;
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 930px) {
+  .hero__title-center {
+    text-align: center;
+  }
+  .img__profil {
+    max-width: 200px;
+  }
+
+  .img__profil-sectiion {
+    margin-top: 0px; /* flyttar ner bilden */
+    margin-right: 0px;
+    margin-left: 0px;
+    /* display: contents; */
+    position: relative;
+    grid-row: 2 / span 2;
+  }
+
+  .img__border {
+    position: absolute;
+  }
+
+  @media (max-width: 700px) {
+    .hero__nav {
+      font-size: 20px;
+    }
+
+    .hero__about-section {
+      padding: 1rem;
+      /* margin: 0rem 2rem 0rem 0rem; */
+    }
+    .hero__about-text {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .hero__title {
+    font-size: 4rem;
+  }
+  .hero__subtitle {
+    margin-left: 0rem;
+    font-size: 1.3rem;
+    /* margin-left: 1rem; */
+  }
+}

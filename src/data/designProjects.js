@@ -3,6 +3,7 @@ import SushiYama7mindre from "../assets/bilder/sushiyama/SushiYama7mindre.jpg";
 import dip12 from "../assets/bilder/Dip/dip12.jpg";
 import dip2 from "../assets/bilder/Dip/dip2.jpg";
 import dip3 from "../assets/bilder/Dip/dip3.jpg";
+import dip4 from "../assets/bilder/Dip/dip4.jpg";
 import wermlandstryfflar2 from "../assets/bilder/wermlandschoklad/wermlandstryfflar2.jpg";
 import wermlandstryfflar1 from "../assets/bilder/wermlandschoklad/wermlandstryfflar1.jpg";
 import wermlandstryfflar3 from "../assets/bilder/wermlandschoklad/wermlandstryfflar3.jpg";
@@ -45,7 +46,7 @@ const designProjects = [
     image: dip12,
     image2: dip2,
     image3: dip3,
-    image4: "",
+    image4: dip4,
 
     link: "",
     program: "Illustrator, ArtiosCad",

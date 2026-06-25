@@ -2,11 +2,18 @@ import movieApp6 from "../assets/bilder/movieAppReact/movieApp6.png";
 import movieApp1 from "../assets/bilder/movieAppReact/movieApp1.png";
 import movieApp2 from "../assets/bilder/movieAppReact/movieApp2.png";
 import movieApp3 from "../assets/bilder/movieAppReact/movieApp3.png";
+import movieApp12 from "../assets/bilder/movieAppReact/movieApp12.png";
+import movieApp9 from "../assets/bilder/movieAppReact/movieApp9.png";
 import eventApp2 from "../assets/bilder/eventApp/eventApp2.png";
 import eventApp1 from "../assets/bilder/eventApp/eventApp1.png";
 import eventApp3 from "../assets/bilder/eventApp/eventApp3.png";
 import eventApp4 from "../assets/bilder/eventApp/eventApp4.png";
+// import eventApp5 from "../assets/bilder/eventApp/eventApp5.png";
 import movieDatabase1 from "../assets/bilder/movieDatabase/movieDatabase1.png";
+import movieDatabase2 from "../assets/bilder/movieDatabase/movieDatabase2.png";
+import movieDatabase3 from "../assets/bilder/movieDatabase/movieDatabase3.png";
+import movieDatabase4 from "../assets/bilder/movieDatabase/movieDatabase4.png";
+import movieDatabase5 from "../assets/bilder/movieDatabase/movieDatabase5.png";
 // import movieDatabase4 from "../assets/bilder/movieDatabase/movieDatabase4.png";
 // import movieDatabase3 from "../assets/bilder/movieDatabase/movieDatabase3.png";
 // import movieDatabase2 from "../assets/bilder/movieDatabase/movieDatabase2.png";
@@ -21,8 +28,8 @@ const codeProjects = [
     extendedDescription: "Mer info kommer snart",
     image: movieApp6,
     image2: movieApp2,
-    image3: movieApp1,
-    image4: movieApp3,
+    image3: movieApp12,
+    image4: movieApp9,
     link: "",
     collaboration: "grupparbete",
     projectType: "fiktivt projekt",
@@ -53,6 +60,9 @@ const codeProjects = [
     description:
       "Detta är en filmdatabas skapad med javascript. Användaren skulle kunna söka efter filmer, se en detaljeras lista om filmer och även kunna lägga till dem i favoriter. Jag har lagt till hovereffekt på fimlkorten, så textytan blir gul, vilket ger en kul detalj.",
     image: movieDatabase1,
+    image2: movieDatabase2,
+    image3: movieDatabase5,
+    image4: movieDatabase3,
     link: "",
     collaboration: "Enskilt arbete",
     projectType: "Skarpt projekt",
