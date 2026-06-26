@@ -83,6 +83,7 @@
 .hero__about-text {
   font-family: var(--font-Kulim);
   font-size: 1.125rem;
+  line-height: 1.4;
 }
 .hero__nav-section {
   grid-column: 1/4;
@@ -198,5 +199,54 @@
     margin-left: 0rem;
     font-size: 1.3rem;
     /* margin-left: 1rem; */
+  }
+  .hero__nav-section {
+    padding: 2rem 1rem 2rem 1rem;
+    margin: 2rem 0rem 0rem 0rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero__title-section {
+    /* background-color: white; */
+  }
+  .hero__title {
+    font-size: 3rem;
+  }
+  .hero__subtitle {
+    margin-left: 0rem;
+    font-size: 1rem;
+    /* margin-left: 1rem; */
+  }
+
+  .hero__nav-section {
+    padding: 2rem 1rem 2rem 1rem;
+    margin: 2rem 0rem 0rem 0rem;
+    flex-direction: column;
+    background-color: white;
+  }
+
+  .img__profil-sectiion {
+    grid-row: 2;
+    grid-column: 2;
+  }
+  .hero__about-section {
+    grid-column: 1 / 4;
+    grid-row: 3;
+    /* min-height: 25rem;*/
+    padding: 0rem;
+    margin: 1rem 0rem 0rem 0rem;
+    background-color: white;
+  }
+
+  .hero__nav {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero__title {
+    font-size: 2.5rem;
   }
 }

@@ -46,6 +46,8 @@
   margin-top: 2rem;
   font-family: var(--font-Arimo);
   max-width: 80rem;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 .project__button {
@@ -83,4 +85,64 @@
   width: 100%;
 
   border-radius: 1rem;
+}
+
+@media (max-width: 900px) {
+  .project__img-section {
+    padding: 0rem;
+    margin: 0rem;
+    background-color: white;
+    width: 100%;
+  }
+
+  .project__button {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .project__content,
+  .project.reverse .project__content {
+    flex-direction: column;
+    /* text-align: center; */
+  }
+
+  .project__img {
+    max-width: 20rem;
+    align-items: center; /* Centrerar både bild och text horisontellt på mobilen */
+
+    /* max-width: 24rem; /* Sätter ett tak så den inte blir enorm om skärmen är nära 700px */
+    margin: 0rem auto;
+  }
+  .projectLeft__subtitle-section {
+    margin: 3rem 0rem 0rem 0rem;
+  }
+
+  .project__title-section {
+    background-color: var(--color-lightBlue);
+    padding: 2rem 0.5rem 2rem 0.5rem;
+    margin: 7rem 0rem 0rem 0rem;
+    font-size: 1.5rem;
+    /* grid-column: span 2; */
+    /*display: contents; detta ska flytta knappen och bilden*/
+  }
+  .project__subtitle {
+    font-size: 2rem;
+  }
+
+  .project__img-section {
+    order: 1;
+  }
+  .project__button {
+    order: 2;
+  }
+}
+
+@media (max-width: 370px) {
+  .project__subtitle {
+    font-size: 1.6rem;
+  }
+  .project__title-section {
+    font-size: 1.2rem;
+  }
 }

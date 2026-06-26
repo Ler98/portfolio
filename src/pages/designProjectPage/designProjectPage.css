@@ -31,6 +31,7 @@
   margin-top: 2rem;
   font-family: var(--font-Arimo);
   margin: 0.5rem 0rem 2rem 0rem;
+  line-height: 1.5;
 }
 
 .design__button {
@@ -93,4 +94,50 @@
   margin: 0.5rem;
 
   border-radius: 1rem;
+}
+
+@media (max-width: 800px) {
+  .design__img-section {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0rem;
+    border-radius: 1rem;
+    margin: 2rem 0rem 2rem 0rem;
+  }
+  .design__info {
+    font-size: 1rem;
+  }
+  .design__img-section-x2 {
+    background-color: white;
+    padding: 0rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .design__subtitle {
+    font-size: 2rem;
+    overflow-wrap: break-word; /* Tillåter att långa ord delas */
+    word-break: break-word;
+    -webkit-hyphens: auto; /* För Safari */
+    hyphens: auto; /* Lägger till bindestreck automatiskt */
+  }
+  .design__img-section-x2 {
+    flex-direction: column;
+  }
+  .design__img-2x {
+    width: auto;
+    max-height: 20rem;
+    max-width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+  }
+
+  .design__info {
+  }
 }
