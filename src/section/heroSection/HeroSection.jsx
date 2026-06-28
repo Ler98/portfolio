@@ -1,5 +1,5 @@
 import "../../section/heroSection/heroSection.css";
-import jag from "../../assets/bilder/jag.jpg";
+import jag from "../../assets/bilder/Jag.jpg";
 import github from "../../assets/iconer/github.svg";
 import linkedin from "../../assets/iconer/linkedin.svg";
 
