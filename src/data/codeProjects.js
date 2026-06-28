@@ -59,6 +59,7 @@ const codeProjects = [
     title: "My movie database",
     description:
       "Detta är en filmdatabas skapad med javascript. Användaren skulle kunna söka efter filmer, se en detaljeras lista om filmer och även kunna lägga till dem i favoriter. Jag har lagt till hovereffekt på fimlkorten, så textytan blir gul, vilket ger en kul detalj.",
+    extendedDescription: "Mer info kommer snart",
     image: movieDatabase1,
     image2: movieDatabase2,
     image3: movieDatabase5,
