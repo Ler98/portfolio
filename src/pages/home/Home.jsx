@@ -1,5 +1,5 @@
 import Footer from "../../section/footer/Footer";
-import HeroSection from "../../section/heroSection/HeroSection";
+import HeroSection from "../../section/heroSection/HeroSection.jsx";
 import ProjectLeft from "../../section/projectLeft/ProjectLeft";
 // import ProjectRight from "../../section/projectRight/ProjectRight";
 import codeProjects from "../../data/codeProjects";
